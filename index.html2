@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matthew Ngarambe | Personal Landing Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #1f2933;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #4b5563;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6b7280;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Hero Section -->
+    <div class="card hero">
+      <h1>Matthew Ngarambe</h1>
+      <p class="subtitle">Business Information Systems</p>
+      <p class="subtitle">Ball State University</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a student at Ball State University pursuing a degree in Information Systems.
+        I am interested in using technology and data to solve real-world business problems.
+        I have experience working with tools like Excel and Python and enjoy learning new
+        skills that help me grow professionally.
+      </p>
+    </div>
+
+    <!-- Interests Section -->
+    <div class="card">
+      <h2>My Interests</h2>
+      <ul>
+        <li>Business and problem-solving</li>
+        <li>Fitness and health</li>
+        <li>Learning new skills</li>
+      </ul>
+    </div>
+
+    <!-- Goals Section -->
+    <div class="card">
+      <h2>My Goals</h2>
+      <ul>
+        <li>Secure an internship in Information Systems or a related field</li>
+        <li>Build stronger skills in data analysis and programming</li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="card">
+      <h2>Contact</h2>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/matthew-ngarambe-b53044333" target="_blank">View Profile</a></p>
+      <p>Email: [Add your email]</p>
+    </div>
+
+    <div class="footer">
+      © 2026 Matthew Ngarambe
+    </div>
+
+  </div>
+</body>
+</html>
